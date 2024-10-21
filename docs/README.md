@@ -40,7 +40,7 @@ Several important concepts are explained elsewhere: [exact time, wall-clock time
 - `Temporal.Now.zonedDateTimeISO()` - get the current date and wall-clock time in the system time zone and ISO-8601 calendar
 - `Temporal.Now.plainDateISO()` - get the current date in the system time zone and ISO-8601 calendar
 - `Temporal.Now.plainTimeISO()` - get the current wall-clock time in the system time zone and ISO-8601 calendar
-- `Temporal.Now.plainDateTimeISO()` - same as above, but return the DateTime in the ISO-8601 calendar
+- `Temporal.Now.plainDateTimeISO()` - get the current date/time in the system time zone and ISO-8601 calendar
 
 ```js
 console.log('Initialization complete', Temporal.Now.instant());
